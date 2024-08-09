@@ -87,19 +87,19 @@ export const ContactSection = () => {
           propostas, etc...
         </p>
         <div className="flex justify-center items-center gap-4 mt-5">
-          <a href="mailto:marcelo.soares1070@gmail.com" target="">
+          <a href="mailto:jfermartins@hotmail.com" target="">
             <Mail className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
-          <a href="https://github.com/marcelo-Soares-codes/" target="">
+          <a href="https://github.com/jfermartins/" target="">
             <Github className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
           <a
-            href="https://www.linkedin.com/in/marcelo-soares-codes/"
+            href="https://www.linkedin.com/in/jfermartins/"
             target=""
           >
             <Linkedin className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
-          <a href="https://www.instagram.com/s.soares_marcelo/" target="">
+          <a href="https://www.instagram.com/jfernanda_martins/" target="">
             <Instagram className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
         </div>

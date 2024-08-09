@@ -18,17 +18,16 @@ export const CardEducation = () => {
             <div className="mx-auto my-5 rotating-border">
                 {''}
                 {/* Adicione a classe rotating-border aqui */}
-                <h2 className="text-3xl">Senac Santos</h2>
+                <h2 className="text-3xl">Senac Santos e Fatec PG</h2>
                 <div className="w-4/5 border-b-2 border-solid border-primary-600"></div>
             </div>
             <p className="text-sm text-zinc-300">
                 Aprimorei minhas habilidades no campo de tecnologia ao concluir o curso
                 técnico em informática em 2018, o Senac Santos e também na faculdade de
-                Tecnologiade Praia Grande<b>Fatec PG</b>. Durante este período,
-                adquiri experiências valiosas em programação, desenvolvimento de sistemas,
+                Tecnologiade Praia Grande <b>Fatec PG</b>. Durante este período, adquiri experiências valiosas em programação, desenvolvimento de sistemas,
                 administração de banco de dados e gestão de projetos, além de consolidar
-                meus conhecimentos gerais em Tecnologia da Informação{''}
-                <b>TI</b>
+                meus conhecimentos gerais em Tecnologia da Informação (TI){''} 
+                <b></b>
             </p>
         </a>
     );

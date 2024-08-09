@@ -37,18 +37,6 @@ type SkillType = {
           'O React é uma biblioteca JavaScript para construir interfaces de usuário interativas em aplicações web. Baseado em componentes reutilizáveis, usa um Virtual DOM para otimizar atualizações de UI. Sua abordagem declarativa simplifica o desenvolvimento, tornando-o eficiente e organizado. É amplamente utilizado e mantido pelo Facebook.',
       },
       {
-        src: './skills-logo/storybook.svg',
-        name: 'Storybook',
-        description:
-          'O Storybook é uma ferramenta de desenvolvimento para criar, testar e documentar componentes de interface de usuário de forma isolada. Permite visualizar e interagir com os componentes em vários estados, simplificando o processo de desenvolvimento e documentação de maneira eficiente.',
-      },
-      {
-        src: './skills-logo/styled-components.svg',
-        name: 'Styled Components',
-        description:
-          'Styled Components é uma biblioteca para React e React Native que permite escrever estilos CSS diretamente nos componentes JavaScript, usando uma sintaxe de template literal. Isso promove o desenvolvimento de aplicações mais organizadas, escaláveis e fáceis de manter, encapsulando estilos junto com a lógica dos componentes.',
-      },
-      {
         src: './skills-logo/tailwind.svg',
         name: 'Tailwind',
         description:
@@ -75,12 +63,6 @@ type SkillType = {
           'TypeScript é um superconjunto tipado de JavaScript desenvolvido pela Microsoft. Ele adiciona tipagem estática opcional e outros recursos, como interfaces e enums, ao JavaScript, tornando-o mais robusto e escalável. TypeScript é amplamente utilizado em grandes projetos devido à sua capacidade de detectar erros de código em tempo de compilação.',
       },
       {
-        src: './skills-logo/mongodb.svg',
-        name: 'MongoDB',
-        description:
-          'O MongoDB é um banco de dados NoSQL de alta performance, orientado a documentos. Ele oferece flexibilidade e escalabilidade, permitindo armazenar e consultar dados não estruturados. Amplamente utilizado em aplicações web modernas, o MongoDB é conhecido por sua facilidade de uso e escalabilidade horizontal.',
-      },
-      {
         src: './skills-logo/postgresql.svg',
         name: 'Postgresql',
         description:
@@ -91,12 +73,6 @@ type SkillType = {
         name: 'Docker',
         description:
           'Docker é uma plataforma de virtualização de contêineres que simplifica a implantação de aplicativos. Oferece ambientes isolados, garantindo consistência na execução de software em diferentes plataformas. Amplamente usado no desenvolvimento moderno devido à sua portabilidade e eficiência.',
-      },
-      {
-        src: './skills-logo/scraper.svg',
-        name: 'Web Scraping',
-        description:
-          'O Web scraping é o processo de extrair dados de páginas da web de forma automatizada. Os desenvolvedores usam bibliotecas e ferramentas para acessar e analisar o conteúdo de páginas da web, coletando informações estruturadas para uso em diversos fins, como análise de mercado, monitoramento de preços e pesquisa.',
       },
     ],
     others: [

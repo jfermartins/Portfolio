@@ -23,7 +23,7 @@ export const AboutSection = () => {
         <div className="w-3/5 mx-auto mt-10 md:mt-0 flex flex-col justify-center items-start">
           <div className="max-w-md text-sm md:text-base">
             <br></br>
-            <p>👨‍💻 Sou Jane Fernanda Martins uma desenvolvedora web fullstack.</p>
+            <p>👨‍💻 Sou Jane Fernanda Martins uma desenvolvedora Web fullstack.</p>
             <p className="my-4">
               🚀 Estudando e aprendendo novas tecnologias como React e sempre me
               aperfeiçoando com o necessário no back-end.
