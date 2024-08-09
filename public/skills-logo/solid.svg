@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50">
+  <!-- S -->
+  <text x="10" y="50" font-family="sans-serif" font-size="60" fill="#d97706">S</text>
+  <!-- O -->
+  <text x="45" y="50" font-family="sans-serif" font-size="60" fill="#d97706">O</text>
+  <!-- L -->
+  <text x="90" y="50" font-family="sans-serif" font-size="60" fill="#d97706">L</text>
+  <!-- I -->
+  <text x="122" y="50" font-family="sans-serif" font-size="60" fill="#d97706">I</text>
+  <!-- D -->
+  <text x="135" y="50" font-family="sans-serif" font-size="60" fill="#d97706">D</text>
+</svg>
