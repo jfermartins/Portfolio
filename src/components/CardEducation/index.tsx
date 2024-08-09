@@ -11,7 +11,7 @@ export const CardEducation = () => {
                 className="w-20 absolute -left-6 -top-4 z-20"
             />
             <img
-                src=""
+                src="./certificate.svg"
                 alt=""
                 className="w-2/3 mx-auto"
             />

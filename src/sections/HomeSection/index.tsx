@@ -25,7 +25,7 @@ export const HomeSection = () => {
       className="md:min-h-96 bg-zinc-950 flex flex-col sm:flex-row pb-16"
     >
       <div className="w-full sm:w-1/2 mt-10 flex justify-center items-center sm:order-2 ">
-        <img src="./photo-03.png" className=" w-4/5 md:w-3/4" />
+        <img src="./fernanda.jpg" className=" w-4/5 md:w-3/4" />
       </div>
 
       <div className="sm:w-1/2 flex justify-center items-center mt-10 ml-5 text-white font-montserrat sm:order-1">

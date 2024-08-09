@@ -13,7 +13,7 @@ export const AboutSection = () => {
         <div className="sm:w-1/2 mt-10 md:mt-5 flex justify-center items-center">
           <div className="w-3/5 md:w-2/5">
             <img
-              src="./fernanda.jpg"
+              src="./jane.jpg"
               alt="sobre mim"
               className=" rounded-l-4xl rounded-b-4xl md:rounded-br-none border-y-2 border-r-2 border-solid border-primary-600"
             />
