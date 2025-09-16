@@ -73,6 +73,9 @@ export default {
         128: '32rem',
         144: '36rem',
       },
+        animation: {
+        "spin-slow": "spin 20s linear infinite",
+      },
       borderRadius: {
         '4xl': '2rem',
       },

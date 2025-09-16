@@ -1,14 +1,22 @@
-import React from 'react';
-import { CardEducation } from '../../components/CardEducation';
-import { Title } from '../../components/Title';
+import React from "react";
 
-export const EducationSection = () => {
+interface EducationSectionProps {
+  title?: string;
+  children: React.ReactNode;
+}
+
+export const EducationSection: React.FC<EducationSectionProps> = ({
+  title = "Educação",
+  children,
+}) => {
   return (
     <section className="bg-zinc-800 flex flex-col py-14 text-white font-montserrat">
-      <Title>Formações</Title>
-      <div className="flex justify-center items-center mt-10">
-        <CardEducation />
-      </div>
+      {title && (
+        <h2 className="text-4xl text-center text-white font-bold mb-12">
+          {title}
+        </h2>
+      )}
+      {children}
     </section>
   );
 };

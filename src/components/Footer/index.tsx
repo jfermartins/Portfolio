@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 import React from 'react';
 
 export const Footer = () => {
@@ -68,14 +68,7 @@ export const Footer = () => {
             <Linkedin className="mr-2 w-5 h-5" />
             <span>@jfermartins</span>
           </a>
-          <a
-            href="https://www.instagram.com/jfernanda_martins/"
-            target=""
-            className="flex text-xs md:text-sm cursor-pointer transition-all duration-300 hover:scale-105"
-          >
-            <Instagram className="mr-2 w-5 h-5" />
-            <span>@jfernanda_martins</span>
-          </a>
+
         </div>
       </div>
       <span className="order-4 col-span-2 md:col-span-3 text-xs mx-auto flex justify-end items-end mb-3">

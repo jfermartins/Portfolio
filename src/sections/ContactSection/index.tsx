@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 import { Title } from '../../components/Title';
@@ -98,9 +98,6 @@ export const ContactSection = () => {
             target=""
           >
             <Linkedin className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
-          </a>
-          <a href="https://www.instagram.com/jfernanda_martins/" target="">
-            <Instagram className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
         </div>
       </div>
