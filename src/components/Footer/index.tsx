@@ -50,7 +50,7 @@ export const Footer = () => {
             className="flex text-xs md:text-sm cursor-pointer transition-all duration-300 hover:scale-105"
           >
             <Phone className="mr-2 w-5 h-5" />
-            <span>+55 13 9 8132-8780</span>
+            <span>+55 13 98877-3390</span>
           </a>
           <a
             href="https://github.com/jfermartins"

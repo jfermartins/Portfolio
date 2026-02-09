@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { Github, Linkedin, Mail } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
@@ -44,7 +43,7 @@ export const ContactSection = () => {
     };
 
     try {
-      const response = await emailjs.send(
+      await emailjs.send(
         'service_kg2y0b1',
         'template_8nxnv3i',
         data,
@@ -53,7 +52,8 @@ export const ContactSection = () => {
       setSuccessPopup(true);
       setPopup(true);
       setMessagePopup('Sua mensagem foi enviada, logo te darei um retorno!');
-      console.log('Contato enviado: ', response.status, response.text);
+      
+      // Limpa os campos após o sucesso
       setName('');
       setEmail('');
       setMessage('');
@@ -81,26 +81,35 @@ export const ContactSection = () => {
       )}
 
       <Title>Contato</Title>
+      
       <div className="w-3/5 flex flex-col max-w-96 mx-auto text-center">
         <p className="mt-10 text-zinc-300">
           Entre em contato por uma das seguintes redes sociais para sugestões,
           propostas, etc...
         </p>
         <div className="flex justify-center items-center gap-4 mt-5">
-          <a href="mailto:jfermartins@hotmail.com" target="">
+          <a href="mailto:jfermartins@hotmail.com" title="Enviar E-mail">
             <Mail className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
-          <a href="https://github.com/jfermartins/" target="">
+          <a 
+            href="https://github.com/jfermartins/" 
+            target="_blank" 
+            rel="noreferrer" 
+            title="Ver GitHub"
+          >
             <Github className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
           <a
             href="https://www.linkedin.com/in/jfermartins/"
-            target=""
+            target="_blank"
+            rel="noreferrer"
+            title="Ver LinkedIn"
           >
             <Linkedin className="text-primary-500 w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1" />
           </a>
         </div>
       </div>
+
       <form
         onSubmit={handleSubmit}
         className="flex flex-col justify-center items-center mt-7"
@@ -111,44 +120,50 @@ export const ContactSection = () => {
         >
           Nome
           <input
+            id="name"
             type="text"
             name="name"
             onChange={handleChangeName}
             value={name}
-            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-full"
+            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-full mt-1"
             required
           />
         </label>
+
         <label
           htmlFor="email"
           className="flex flex-col w-3/5 max-w-96 text-xs indent-3 mt-5"
         >
           Email
           <input
+            id="email"
             type="email"
             name="email"
             onChange={handleChangeEmail}
             value={email}
-            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-full"
+            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-full mt-1"
             required
           />
         </label>
+
         <label
-          htmlFor="name"
+          htmlFor="message"
           className="flex flex-col w-3/5 max-w-96 text-xs indent-3 mt-5"
         >
           Mensagem
           <textarea
-            name="name"
+            id="message"
+            name="message"
             onChange={handleChangeMessage}
             value={message}
-            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-lg"
+            className="text-sm text-zinc-800 outline-none py-1 px-3 border-2 border-solid border-primary-600 rounded-lg mt-1 min-h-[100px]"
             required
           />
         </label>
+
         <button
           type="submit"
-          className="bg-primary-600 w-3/5 max-w-96 text-lg py-2 mt-16 mb-10 rounded-lg transition-all duration-200 hover:bg-primary-500"
+          className="bg-primary-600 w-3/5 max-w-96 text-lg py-2 mt-16 mb-10 rounded-lg transition-all duration-200 hover:bg-primary-500 font-bold"
         >
           Enviar
         </button>
