@@ -35,9 +35,9 @@ export const HomeSection = () => {
             Jane Fernanda Martins
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl mt-3 sm:mt-7">
-            Web developer{' '}
+            Engenheira de {' '}
             <span className="text-primary-500 text-2xl sm:text-3xl md:text-4xl">
-              fullstack
+              Software
             </span>
           </h2>
           <div className="flex my-5">
