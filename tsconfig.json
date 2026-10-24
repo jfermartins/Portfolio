@@ -8,23 +8,23 @@
       "noUnusedLocals": false,
   
       /* Bundler mode */
-      "moduleResolution": "node",
+      "moduleResolution": "bundler", // Corrigido de "node" para "bundler"
       "allowImportingTsExtensions": true,
       "resolveJsonModule": true,
       "isolatedModules": true,
       "noEmit": true,
       "jsx": "react-jsx",
-
-          /* Types */
-    "types": ["react", "react-dom"],         // <-- garante carregamento dos tipos
-    "esModuleInterop": true,                 // <-- compatibilidade com imports CJS
-    "allowSyntheticDefaultImports": true,
   
-    /* Linting */
-    "strict": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+      /* Types */
+      "types": ["react", "react-dom"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+  
+      /* Linting */
+      "strict": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src"],
+    "references": [{ "path": "./tsconfig.node.json" }]
 }
