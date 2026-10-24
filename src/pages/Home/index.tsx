@@ -4,7 +4,7 @@ import { HomeSection } from "../../sections/HomeSection";
 import { AboutSection } from "../../sections/AboutSection";
 import { EducationSection } from "../../sections/EducationSection";
 import { EducationList } from "../../components/EducationList";
-import { ProjectSection } from "../../sections/ProjectsSection";
+import { ProjectsSection } from "../../sections/ProjectsSection";
 import { SkillsSection } from "../../sections/SkillsSection";
 import { ContactSection } from "../../sections/ContactSection";
 import { Footer } from "../../components/Footer";
@@ -18,7 +18,7 @@ const Home = () => {
       <EducationSection title="Educação">
       <EducationList />
       </EducationSection>
-      <ProjectSection />
+      <ProjectsSection />
       <SkillsSection />
       <ContactSection />
       <Footer />
