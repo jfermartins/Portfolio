@@ -75,31 +75,38 @@ export const CardProject = ({
 const projectsData = [
     {
         name: "Alan Mecânica de Motos",
-        src: "./alan-motos.png",
+        src: "/alan-motos.PNG",
         description: "Landing page promocional e responsiva desenvolvida para oficina mecânica de motos.",
         github: "https://github.com/jfermartins",
         deploy: "https://alan-motos.netlify.app/",
     },
     {
         name: "Portfólio Profissional",
-        src: "./portfolio-jane.png",
+        src: "/studio-linda-mulher.PNG",
         description: "Portfólio de engenharia de software desenvolvido com React, Tailwind CSS e TypeScript.",
         github: "https://github.com/jfermartins",
         deploy: "https://portifolio-jane.netlify.app/",
     },
     {
         name: "Projeto Netlify",
-        src: "./jfermartins.png",
+        src: "/portfolio.PNG",
         description: "Aplicação web moderna integrada e publicada no ecossistema Netlify.",
         github: "https://github.com/jfermartins",
         deploy: "https://jfermartins.netlify.app/",
     },
+    {
+        name: "Meu Girassol",
+        src: "/girassol.png",
+        description: "Aplicativo Android para apoiar pessoas com deficiências ocultas e autismo, com informações de apoio e identificação controladas pela própria pessoa.",
+        github: "https://github.com/jfermartins/MeuGirassol",
+        deploy: "https://github.com/jfermartins/MeuGirassol/releases",
+    },
 ];
 
-export const ProjectsSection = () => {
+const ProjectsComponent = () => {
     return (
-        <section id="projects" className="w-full py-10 px-4">
-            <div className="max-w-6xl mx-auto text-center mb-8">
+        <section id="projects" className="w-full py-16 px-4 bg-zinc-900">
+            <div className="max-w-6xl mx-auto text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-white">Meus projetos</h2>
                 <div className="w-32 h-1 bg-primary-600 mx-auto mt-3 rounded-full"></div>
             </div>
@@ -119,3 +126,7 @@ export const ProjectsSection = () => {
         </section>
     );
 };
+
+// Exportamos com os dois nomes (singular e plural) para evitar qualquer conflito de importação
+export const ProjectsSection = ProjectsComponent;
+export const ProjectSection = ProjectsComponent;

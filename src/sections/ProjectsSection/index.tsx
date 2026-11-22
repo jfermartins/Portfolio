@@ -103,6 +103,13 @@ const projectsData = [
         github: "https://github.com/jfermartins",
         deploy: "https://jfermartins.netlify.app/",
     },
+    {
+        name: "Meu Girassol",
+        src: "/girassol.png",
+        description: "Aplicativo Android para apoiar pessoas com deficiências ocultas e autismo, com informações de apoio e identificação controladas pela própria pessoa.",
+        github: "https://github.com/jfermartins/MeuGirassol",
+        deploy: "https://github.com/jfermartins/MeuGirassol/releases",
+    },
 ];
 
 const ProjectsComponent = () => {
